@@ -1,0 +1,267 @@
+* {
+    font-family: "EB Garamond";
+}
+
+/* БАЗА */
+QWidget {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* ЛЕЙБЛ */
+QLabel {
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent;
+}
+#label_login_title {
+    background: transparent;
+}
+
+/* ІНПУТИ */
+QLineEdit {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+QLineEdit:focus {
+    border: 1px solid #ff3c3c;
+}
+
+/* ВСІ КНОПКИ */
+QPushButton {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    padding: 10px 20px;
+    min-width: 180px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #3a3a3a;
+}
+
+QPushButton:pressed {
+    background-color: #ff3c3c;
+}
+
+QPushButton#historyButton {
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+QPushButton#cartButton:hover {
+    background-color: #ff5c5c;
+}
+
+QPushButton#cartButton:pressed {
+    background-color: #cc2f2f;
+}
+
+/* СПИСОК ТОВАРІВ */
+QListWidget {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border: none;
+    padding: 8px;
+}
+
+/* елементи */
+QListWidget::item {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* hover */
+QListWidget::item:hover {
+    background-color: #3a3a3a;
+}
+
+/* вибраний */
+QListWidget::item:selected {
+    background-color: #ff3c3c;
+    color: white;
+}
+
+/* КАРТКА ЛОГІНУ */
+#loginCard {
+    background-color: #2c2c2c;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #3a3a3a;
+}
+
+/* КАРТОЧКИ МЕНЮ */
+QPushButton#btn_kitchen,
+QPushButton#btn_bar {
+    background-color: #2c2c2c;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+QPushButton#btn_kitchen:hover,
+QPushButton#btn_bar:hover {
+    background-color: #3a3a3a;
+}
+
+QPushButton#btn_kitchen:pressed,
+QPushButton#btn_bar:pressed {
+    background-color: #ff3c3c;
+}
+/* СТИЛЬ ТІЛЬКИ ДЛЯ МЕНЮ */
+QListWidget#list_menu {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border: none;
+    padding: 8px;
+}
+
+QListWidget#list_menu::item {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+QListWidget#list_menu::item:hover {
+    background-color: #3a3a3a;
+}
+
+QListWidget#list_menu::item:selected {
+    background-color: #ff3c3c;
+    color: white;
+}
+/* КАТЕГОРІЇ (бар/кухня) */
+QPushButton#btn_alcohol,
+QPushButton#btn_cocktails,
+QPushButton#btn_hot_drinks,
+QPushButton#btn_juices,
+QPushButton#btn_soft_drinks,
+QPushButton#btn_pizza,
+QPushButton#btn_salads,
+QPushButton#btn_side_dishes,
+QPushButton#btn_snacks,
+QPushButton#btn_desserts {
+    background-color: #2c2c2c;
+    border-radius: 14px;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* hover */
+QPushButton#btn_alcohol:hover,
+QPushButton#btn_cocktails:hover,
+QPushButton#btn_hot_drinks:hover,
+QPushButton#btn_juices:hover,
+QPushButton#btn_soft_drinks:hover,
+QPushButton#btn_pizza:hover,
+QPushButton#btn_salads:hover,
+QPushButton#btn_side_dishes:hover,
+QPushButton#btn_snacks:hover,
+QPushButton#btn_desserts:hover {
+    background-color: #3a3a3a;
+}
+
+/* натиск */
+QPushButton#btn_alcohol:pressed,
+QPushButton#btn_cocktails:pressed,
+QPushButton#btn_hot_drinks:pressed,
+QPushButton#btn_juices:pressed,
+QPushButton#btn_soft_drinks:pressed,
+QPushButton#btn_pizza:pressed,
+QPushButton#btn_salads:pressed,
+QPushButton#btn_side_dishes:pressed,
+QPushButton#btn_snacks:pressed,
+QPushButton#btn_desserts:pressed {
+    background-color: #ff3c3c;
+}
+
+/* КНОПКИ */
+QPushButton#btn_hot_drinks,
+QPushButton#btn_soft_drinks,
+QPushButton#btn_cocktails,
+QPushButton#btn_juices,
+QPushButton#btn_alcohol {
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 20px;
+    text-align: left;
+}
+
+QPushButton#btn_hot_drinks:hover,
+QPushButton#btn_soft_drinks:hover,
+QPushButton#btn_cocktails:hover,
+QPushButton#btn_juices:hover,
+QPushButton#btn_alcohol:hover {
+    background-color: #3a3a3a;
+}
+
+QPushButton#btn_hot_drinks:pressed,
+QPushButton#btn_soft_drinks:pressed,
+QPushButton#btn_cocktails:pressed,
+QPushButton#btn_juices:pressed,
+QPushButton#btn_alcohol:pressed {
+    background-color: #ff3c3c;
+}
+QPushButton#cartButton,
+QPushButton#historyButton {
+background-color: #ff3c3c;
+    border-radius: 12px;
+
+    min-height: 45px;
+    max-height: 45px;
+    min-width: 120px;
+    max-width: 200px;
+
+    text-align: center;
+    padding: 10px 20px;
+    qproperty-iconSize: 24px 24px;
+}
+
+#statsBox {
+    border: 2px solid #ff3c3c;
+    border-radius: 10px;
+    padding: 10px;
+}
+QTableWidget {
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    padding: 5px;
+}
+
+QHeaderView::section {
+    background-color: #2a2a2a;
+    padding: 6px;
+    border: none;
+}
+QWidget#card {
+    background-color: #2c2c2c;
+    border-radius: 15px;
+}
+QPushButton#addToCart {
+background-color: #ff3c3c;
+border-radius: 12px;
+padding: 10px;
+font-weight: 600;
+}
+
+QPushButton#addToCart:hover {
+background-color: #ff5c5c;
+}
+QPushButton#backButton {
+background: #444;
+border-radius: 12px;
+padding: 8px 14px;
+}
+
+QPushButton#backButton:pressed {
+background: #ff3b3b;
+}

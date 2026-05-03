@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="3" column="0">
+     <widget class="QWidget" name="centerContainer" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>400</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QWidget" name="widget_2" native="true"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="page_login">
+       <widget class="QPushButton" name="btn_login">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>240</y>
+          <width>90</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Увійти</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="input_login">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>90</y>
+          <width>113</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Введіть логін:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="input_password">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>130</y>
+          <width>113</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Password</enum>
+        </property>
+        <property name="placeholderText">
+         <string>Введіть пароль:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_login_title">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>50</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Вхід адміністратора</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_cart">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="btn_remove_item">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="btn_checkout">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QListWidget" name="list_cart"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_total">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="widget"/>
+      <widget class="QWidget" name="page_admin">
+       <widget class="QLineEdit" name="input_name">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>40</y>
+          <width>113</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Назва товару:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="input_price">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>80</y>
+          <width>113</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Ціна:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_add_product">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>120</y>
+          <width>131</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Додати товар</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="list_products">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>170</y>
+          <width>256</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_back_from_admin">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>480</y>
+          <width>90</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Назад</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="list_stoplist">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>170</y>
+          <width>256</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_add_to_stoplist">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>380</y>
+          <width>90</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>в стоп-лист</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_delete_product">
+        <property name="geometry">
+         <rect>
+          <x>339</x>
+          <y>40</y>
+          <width>121</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Видалити товар</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_edit_product">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>90</y>
+          <width>121</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Редагувати товар</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="combo_category">
+        <property name="geometry">
+         <rect>
+          <x>251</x>
+          <y>450</y>
+          <width>181</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentText">
+         <string>Виберіть категорію:</string>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+        <item>
+         <property name="text">
+          <string>Виберіть категорію:</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Піца</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Салати</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Закуски</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Гарніри</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Десерти</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Гарячі напої</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Газовані напої</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Коктейлі</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Соки</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Алкоголь</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_stats">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>390</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_history"/>
+      <widget class="QWidget" name="page_products"/>
+      <widget class="QWidget" name="page_stock"/>
+      <widget class="QWidget" name="page_settings"/>
+      <widget class="QWidget" name="page_register"/>
+      <widget class="QWidget" name="page_menu">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="1">
+         <widget class="QStackedWidget" name="stackedWidget_menu">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <widget class="QWidget" name="page_menu_main">
+           <widget class="QPushButton" name="btn_to_history">
+            <property name="geometry">
+             <rect>
+              <x>439</x>
+              <y>40</y>
+              <width>141</width>
+              <height>29</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Історія замовлень</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_to_cart">
+            <property name="geometry">
+             <rect>
+              <x>640</x>
+              <y>40</y>
+              <width>80</width>
+              <height>29</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Кошик</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_kitchen">
+            <property name="geometry">
+             <rect>
+              <x>290</x>
+              <y>170</y>
+              <width>80</width>
+              <height>29</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Кухня</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_bar">
+            <property name="geometry">
+             <rect>
+              <x>290</x>
+              <y>270</y>
+              <width>80</width>
+              <height>29</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Бар</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_bar">
+           <widget class="QWidget" name="topContainer" native="true">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>20</y>
+              <width>120</width>
+              <height>80</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QWidget" name="centerContainer_2" native="true">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>160</y>
+              <width>120</width>
+              <height>80</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_products_2">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QListWidget" name="list_menu"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_add_to_cart">
+              <property name="text">
+               <string>Додати в кошик</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_sort_name">
+              <property name="text">
+               <string>Сортувати по назві</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_sort_price">
+              <property name="text">
+               <string>Сортувати по ціні</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_back_to_categories">
+              <property name="text">
+               <string>Назад</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="input_search">
+              <property name="text">
+               <string>Пошук товару</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_kitchen"/>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

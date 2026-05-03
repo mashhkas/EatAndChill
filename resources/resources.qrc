@@ -1,0 +1,69 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file alias="style.qss">resources/style.qss</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="cart.png">resources/cart.png</file>
+        <file alias="history.png">resources/history.png</file>
+        <file>resources/forward.png</file>
+        <file>resources/block.png</file>
+        <file alias="EBGaramond-Regular.ttf">resources/fonts/EBGaramond-Regular.ttf</file>
+        <file>resources/images/kitchen/beef_with_mashed_potatoes.jpg</file>
+        <file>resources/images/kitchen/caesar_with_chicken.jpg</file>
+        <file>resources/images/kitchen/caesar_with_shrimp.jpg</file>
+        <file>resources/images/kitchen/capricious.jpg</file>
+        <file>resources/images/kitchen/cheese.jpg</file>
+        <file>resources/images/kitchen/cheesecakes_with_cherries.jpg</file>
+        <file>resources/images/kitchen/chicken_wings_bbq.jpg</file>
+        <file>resources/images/kitchen/chicken_with_mushroom_sauce.jpg</file>
+        <file>resources/images/kitchen/chocolate_cheesecake.jpg</file>
+        <file>resources/images/kitchen/chocolate_fondant.jpg</file>
+        <file>resources/images/kitchen/cordon_bleu.jpg</file>
+        <file>resources/images/kitchen/crackers_noise.jpg</file>
+        <file>resources/images/kitchen/creme_brulee.jpg</file>
+        <file>resources/images/kitchen/greek.jpg</file>
+        <file>resources/images/kitchen/hanster.jpg</file>
+        <file>resources/images/kitchen/honey_chicken_wings.jpg</file>
+        <file>resources/images/kitchen/ice_cream.jpg</file>
+        <file>resources/images/kitchen/meat_and_cheese.jpg</file>
+        <file>resources/images/kitchen/onion_rings.jpg</file>
+        <file>resources/images/kitchen/peanuts.jpg</file>
+        <file>resources/images/kitchen/pistachios.jpg</file>
+        <file>resources/images/kitchen/potatoes_with_bacon_and_mozzarella.jpg</file>
+        <file>resources/images/kitchen/salmon_with_dorblue_sause.jpg</file>
+        <file>resources/images/kitchen/shrimp_in_cream_sause.jpg</file>
+        <file>resources/images/kitchen/snack_set.jpg</file>
+        <file>resources/images/kitchen/with_prosciutto_and_orange.jpg</file>
+        <file>resources/images/kitchen/with_roast_beef.jpg</file>
+        <file>resources/images/kitchen/with_salmon_and_pesto.jpg</file>
+        <file>resources/images/kitchen/with_shrimp_and_pineapple.jpg</file>
+        <file>resources/images/bar/apple_juc.jpg</file>
+        <file>resources/images/bar/blue_gum.jpg</file>
+        <file>resources/images/bar/captain_morgan_black.jpg</file>
+        <file>resources/images/bar/cherry_juc.jpg</file>
+        <file>resources/images/bar/classic_lemonade.jpg</file>
+        <file>resources/images/bar/coca_cola.jpg</file>
+        <file>resources/images/bar/coconut5.jpg</file>
+        <file>resources/images/bar/cointreau.jpg</file>
+        <file>resources/images/bar/cranberry_juc.jpeg</file>
+        <file>resources/images/bar/deadman.jpg</file>
+        <file>resources/images/bar/fanta.jpg</file>
+        <file>resources/images/bar/garnet_juc.jpg</file>
+        <file>resources/images/bar/johnnie_walker_black.jpg</file>
+        <file>resources/images/bar/johnnie_walker_red.jpg</file>
+        <file>resources/images/bar/mango_orange_lemonade.jpg</file>
+        <file>resources/images/bar/olmeca_altos.jpg</file>
+        <file>resources/images/bar/orange_juc.jpg</file>
+        <file>resources/images/bar/pepsi.jpeg</file>
+        <file>resources/images/bar/pineapple_juc.jpg</file>
+        <file>resources/images/bar/pineapple_lemonade.jpg</file>
+        <file>resources/images/bar/pineapple_sparkling.jpg</file>
+        <file>resources/images/bar/pink_style.jpg</file>
+        <file>resources/images/bar/scweppes_lemon.jpg</file>
+        <file>resources/images/bar/scweppes_pink.jpg</file>
+        <file>resources/images/bar/sprite.jpg</file>
+        <file>resources/images/bar/strawberry_lemonade.jpg</file>
+        <file>resources/images/bar/veles_elixir.jpg</file>
+        <file>resources/images/bar/walker_street.jpg</file>
+    </qresource>
+</RCC>
